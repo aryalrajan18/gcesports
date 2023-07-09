@@ -1,0 +1,165 @@
+ /* Styling for sidebar */
+ 
+ .sidebar-container ul li:nth-child(6) {
+     background-color: #FFCD02;
+ }
+ /* Styling for results-panel-table */
+ 
+ .results-panel-table {
+     margin-left: 325px;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+ 
+ .results-panel-table h1 {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+     font-size: 30px;
+     margin-bottom: 40px;
+     text-transform: uppercase;
+ }
+ 
+ .results-panel-table table {
+     border-collapse: collapse;
+     width: 1000px;
+ }
+ 
+ .results-panel-table th {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 3;
+     background-color: #2b2b2b;
+     color: #f8f8f8;
+     border-bottom: 5px solid #FFCD02;
+ }
+ 
+ .results-panel-table th:nth-child(1) {
+     text-align: left;
+     padding-left: 10px;
+ }
+ 
+ .results-panel-table tr:nth-child(even) {
+     background-color: #f8f8f8;
+ }
+ 
+ .results-panel-table td {
+     font-family: 'Opensans', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 2.5;
+     text-align: center;
+ }
+ 
+ .results-panel-table td:nth-child(1) {
+     text-align: left;
+     padding-left: 10px;
+ }
+ 
+ .results-panel-table td a {
+     color: #2b2b2b;
+     text-decoration: none;
+ }
+ 
+ .results-panel-table td a:hover {
+     text-decoration: underline;
+ }
+ 
+ .results-panel-table .add-link {
+     margin-top: 25px;
+ }
+ /* Styling for results-panel-form */
+ 
+ .results-panel-form {
+     margin-left: 325px;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+ 
+ .results-panel-form h1 {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+     font-size: 30px;
+     margin-bottom: 40px;
+     text-transform: uppercase;
+ }
+ 
+ .results-panel-form form div {
+     margin-top: 20px
+ }
+ 
+ .results-panel-form form div span {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+ }
+ 
+ .results-panel-form form div label {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+ }
+ 
+ .fixtures-panel-form form div #firstscore,
+ .fixtures-panel-form form div #secondscore,
+ .fixtures-panel-form form div #title,
+ .fixtures-panel-form form div #info {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     cursor: pointer;
+ }
+ 
+ .results-panel-form form div #firstscore,
+ .results-panel-form form div #secondscore {
+     text-align: center;
+     margin-left: 10px;
+     padding: 7.5px 0px 5px 0px;
+ }
+ 
+ .results-panel-form form div #title,
+ .results-panel-form form div #info {
+     width: 50%;
+     padding: 10px;
+     margin-top: 5px;
+ }
+ 
+ .results-panel-form form div #submit-btn {
+     color: #2b2b2b;
+     text-decoration: none;
+     border: none;
+     font-family: 'Opensans', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 7.5px 20px;
+     border-radius: 20px;
+     background-color: #FFCD02;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+ 
+ .results-panel-form form div #submit-btn:hover {
+     color: #f8f8f8;
+     background-color: #2b2b2b;
+ }
+ 
+ .results-panel-form div {
+     margin-top: 15px;
+ }
+ 
+ .results-panel-form div a {
+     color: #2b2b2b;
+     text-decoration: none;
+     font-family: 'Opensans', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 7.5px 20px;
+     border-radius: 20px;
+     background-color: #FFCD02;
+     transition: 0.5s;
+ }
+ 
+ .results-panel-form div a:hover {
+     color: #f8f8f8;
+     background-color: #2b2b2b;
+ }
